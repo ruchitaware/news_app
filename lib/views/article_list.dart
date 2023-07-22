@@ -20,10 +20,10 @@ class ArticleList extends StatelessWidget {
           physics: ClampingScrollPhysics(),
           itemBuilder: (context, index) {
             return BlogTile(
-              imageUrl: articles[index].urlToImage,
-              title: articles[index].title,
-              desc: articles[index].description,
-              url: articles[index].url,
+              imageUrl: articles[index].urlToImage.toString(),
+              title: articles[index].title.toString(),
+              desc: articles[index].description.toString(),
+              url: articles[index].url.toString(),
             );
           }),
     );

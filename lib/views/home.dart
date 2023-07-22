@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Flutter'),
+            Text('NEWS APP'),
             Text(
               'News',
               style: TextStyle(
@@ -66,6 +66,7 @@ class _HomeState extends State<Home> {
                 ),
                 child: Column(
                   children: <Widget>[
+                    SizedBox(height: 10,),
                     /// Categories
                     CategoryList(
                       categories: categories,
